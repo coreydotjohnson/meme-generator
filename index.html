@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <title>Assessment 1 - Meme Generator</title>
+</head>
+<body>
+    <header>Assessment 1 - Meme Generator</header>
+    <div class="meme-main">
+        <div id="meme-preview">
+            <img id="meme-preview-img" src="" alt="">
+            <div id="meme-preview-text"></div>
+        </div>
+        <div id="meme-settings">
+            <form action="">
+                <label for="meme-img-url">Meme Image URL: </label>
+                <input id="meme-img-url" type="text" value="https://i.imgflip.com/4/9ehk.jpg">
+                <label for="meme-img-height">Meme Image Height: </label>
+                <input id="meme-img-height" type="range">
+                <label for="meme-img-width">Meme Image Width: </label>
+                <input id="meme-img-width" type="range">
+                <label for="meme-text">Meme Text: </label>
+                <textarea id="meme-text" rows="4" cols="50"></textarea>
+                <label for="meme-text-color">Meme Text Color: </label>
+                <input id="meme-text-color" type="color">
+                <label for="meme-text-vertical" value="50">Meme Text Vertical Position: </label>
+                <input id="meme-text-vertical" type="range">
+                <label for="meme-text-horizontal" value="50">Meme Text Horizontal Position: </label>
+                <input id="meme-text-horizontal" type="range">
+                <label for="meme-text-size" value="50">Meme Text Size: </label>
+                <input id="meme-text-size" type="range">
+                <button id="meme-reset-btn" input-type="reset">Reset Image</button>
+            </form>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
